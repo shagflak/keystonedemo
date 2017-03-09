@@ -15,10 +15,14 @@ Keystone it's a CMS that runs on top of Node.js using Express for routes, jade f
 <pre>npm install</pre>
 
 2.- Once npm finish installation go to <b>keystone.js</b> and change the line <b>23</b>
+And adjust your mongo host if needed.
 
 <pre>
 'mongo': 'mongodb://localhost:27017/keystonedemo',
 </pre>
+
+Note: I am running on windows and this is the default host when
+running <mongod --dbpath="C:/db">
 
 3.- You can then run:
 <pre>
@@ -28,9 +32,6 @@ Keystone it's a CMS that runs on top of Node.js using Express for routes, jade f
 Note: This project was created using the yeoman generator 'yo keystone' and have as default 'gulp'
 to build the system although you can also use the npm scripts defined on package.json refer to
 gulpfile.js and package.json for commands.
-
-And adjust your mongo host if needed (I am running on windows and this is the default host when
-running <mongod --dbpath="C:/db">)
 
 #KeystoneJS File Tree Structure
 <pre>
