@@ -1,5 +1,38 @@
 #Keystonedemo1
 
+Keystone it's a CMS that runs on top of Node.js using Express for routes, jade for templates and mongoDB
+
+#Prerequisites
+
+* You need to be runing NodeJS > 4.4.3
+* NPM (Which it comes bundled with node)
+* MongoDB (if you are running windows this can help https://code.msdn.microsoft.com/Mongo-Database-setup-on-6963f46f
+
+#Set up and install the project:
+
+1.- Run:
+
+<pre>npm install</pre>
+
+2.- Once npm finish installation go to <b>keystone.js</b> and change the line <b>23</b>
+
+<pre>
+'mongo': 'mongodb://localhost:27017/keystonedemo',
+</pre>
+
+3.- You can then run:
+<pre>
+    node keystone
+</pre>
+
+Note: This project was created using the yeoman generator 'yo keystone' and have as default 'gulp'
+to build the system although you can also use the npm scripts defined on package.json refer to
+gulpfile.js and package.json for commands.
+
+And adjust your mongo host if needed (I am running on windows and this is the default host when
+running <mongod --dbpath="C:/db">)
+
+#KeystoneJS File Tree Structure
 <pre>
 |--lib
 |  Custom libraries and other code
