@@ -1,6 +1,6 @@
 #Keystonedemo1
 
-<code>
+<pre>
 |--lib
 |  Custom libraries and other code
 |--models
@@ -31,7 +31,7 @@
 |  Project configuration for npm
 |--web.js
 |  Main script that starts your application
-</code>
+</pre>
 
 <a href="http://keystonejs.com/getting-started/">http://keystonejs.com/getting-started/</a>
 <a href="http://keystonejs.com/docs/getting-started/">http://keystonejs.com/docs/getting-started/</a>
